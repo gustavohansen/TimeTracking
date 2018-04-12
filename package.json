@@ -2,7 +2,6 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-
   "name": "my-glitch-app",
   "version": "0.0.1",
   "description": "What am I about?",
@@ -10,7 +9,16 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "async": "^2.6.0",
+    "azure-storage": "^2.8.1",
+    "bcrypt": "^2.0.0",
+    "cookie-session": "^2.0.0-beta.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "nconf": "^0.10.0",
+    "node-uuid": "^1.4.8",
+    "password-validator": "^4.0.0"
   },
   "engines": {
     "node": "9.x"
